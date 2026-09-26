@@ -49,15 +49,7 @@ namespace Stroika.Models
         public string Street { get; set; }
         public string Building { get; set; }
     }
-
-    public class ProductItem
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public decimal MinPrice { get; set; }
-        public int Quantity { get; set; }
-        public decimal Total => Quantity * MinPrice;
-    }
+    
     public class OrderItemModel
     {
         public int ProductId { get; set; }
