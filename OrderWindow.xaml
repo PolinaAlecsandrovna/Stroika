@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="Заявка" Height="550" Width="700"
         Background="#FFFFFF" WindowStartupLocation="CenterScreen"
-        FontFamily="Bahnhofschrift Light SemiCondensed">
+        FontFamily="Bahnhofschrift Light SemiCondensed"
+        Icon="/Resources/icon.ico">
     <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
